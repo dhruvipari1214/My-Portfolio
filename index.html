@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Ganga Devi Portfolio</title>
+</head>
+<body>
+<!--===== HEADER =====-->
+<header class="l-header">
+    <nav class="nav bd-grid">
+        <div>
+            <a href="#" class="nav__logo">Ganga Devi</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+<!--                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>-->
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+    </nav>
+</header>
+
+<main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+        <div class="home__data">
+            <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Ganga Devi</span><br> UI/UX Designer
+            </h1>
+            <button class="button" onclick="openPdf()">Resume</button>
+        </div>
+
+        <div class="home__social">
+            <a href="https://www.linkedin.com/in/ganga-devi-083a2324b/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://dribbble.com/Ganga_devi12" target="_blank" class="home__social-icon"><i class='bx bxl-dribbble'></i></a>
+            <a href="mailto:ganiganga558@gmail.com"  class="home__social-icon"><i class='fas fa-envelope'></i></a>
+        </div>
+
+        <div class="home__img">
+            <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+            >
+                <mask id="mask0" mask-type="alpha">
+                    <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                </mask>
+                <g mask="url(#mask0)">
+                    <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                    <image class="home__blob-img" x="50" y="60" href="assets/img/ganiprofilecropped.png"/>
+                </g>
+            </svg>
+        </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section " id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+            <div class="about__img">
+                <img src="assets/img/ganiprofileWithBgcropped.png" alt="">
+            </div>
+
+            <div>
+                <h2 class="about__subtitle">I'am Ganga Devi</h2>
+                <p class="about__text">
+                    UI/UX Designer with a cybersecurity background. I leverage my technical understanding to craft
+                    efficient, user-centric designs. With a focus on creating intuitive and visually appealing
+                    experiences, I combine data-driven insights with a passion for innovation.
+            </div>
+        </div>
+    </section>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+            <div>
+                <h2 class="skills__subtitle">Professional Skills</h2>
+                <p class="skills__text">
+                    Expert in crafting user-centric designs through wire-framing, prototyping, and user research.
+                    Proficient in utilizing tools like Figma and Canva to bring ideas to life. Skilled in organizing
+                    complex information into intuitive structures through information architecture.</p>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <span class="skills__name">Problem Solving</span>
+                    </div>
+                    <div class="skills__bar skills__html">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">95%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <span class="skills__name">Visual Design</span>
+                    </div>
+                    <div class="skills__bar skills__css">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">95%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <span class="skills__name">Interactive Design</span>
+                    </div>
+                    <div class="skills__bar skills__js">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">90%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <span class="skills__name">Html/Css/Js</span>
+                    </div>
+                    <div class="skills__bar skills__ux">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">80%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <img src="assets/img/uxartwork.jpeg" alt="" class="skills__img">
+            </div>
+        </div>
+    </section>
+
+    <!--===== WORK =====-->
+    <section class="work section" id="work">
+            <h2 class="section-title">Work Samples </h2>
+
+        <div class="work__container bd-grid">
+            <a href="https://www.figma.com/design/MTgt1D4NJ6lUqGXn9BMC9B/Des-for-college?node-id=0-1&t=gtxoKI16mD4OOEe6-1" target="_blank" class="work__img">
+                <img src="assets/img/project%201.png" alt="">
+            </a>
+            <a href="https://www.figma.com/design/jPTIuWq4EYwy3Yog4VJOwr/beacon-Of-Hope?node-id=0-1&t=7IwMxJIuj0EWNJm9-1" target="_blank" class="work__img">
+                <img src="assets/img/project%202.jpg" alt="">
+            </a>
+            <a href="https://www.figma.com/design/8Pefecsr3GE4kMbqO1tpMP/travel-treaty?node-id=0-1&t=v6XhHmHgGparFLoO-1" target="_blank" class="work__img">
+                <img src="assets/img/project%203crop.png" alt="">
+            </a>
+            <a href="" class="work__img">
+                <img src="assets/img/work4.jpg" alt="">
+            </a>
+            <a href="" class="work__img">
+                <img src="assets/img/work5.jpg" alt="">
+            </a>
+            <a href="" class="work__img">
+                <img src="assets/img/work6.jpg" alt="">
+            </a>
+        </div>
+    </section>
+
+<!--    &lt;!&ndash;===== CONTACT =====&ndash;&gt;-->
+<!--    <section class="contact section" id="contact">-->
+<!--        <h2 class="section-title">Contact</h2>-->
+
+<!--        <div class="contact__container bd-grid">-->
+<!--            <form action="" class="contact__form">-->
+<!--                <input type="text" placeholder="Name" class="contact__input">-->
+<!--                <input type="mail" placeholder="Email" class="contact__input">-->
+<!--                <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>-->
+<!--                <input type="button" value="Enviar" class="contact__button button">-->
+<!--            </form>-->
+<!--        </div>-->
+<!--    </section>-->
+</main>
+
+<!--===== FOOTER =====-->
+<footer class="footer">
+    <p class="footer__title">Ganga Devi Ponna</p>
+    <div class="footer__social">
+<!--        <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>-->
+<!--        <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>-->
+<!--        <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>-->
+    </div>
+<!--    <p class="footer__copy">&#169; . All rigths reserved</p>-->
+</footer>
+
+
+<!--===== SCROLL REVEAL =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--===== MAIN JS =====-->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
